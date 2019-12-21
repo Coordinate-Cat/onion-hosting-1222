@@ -4,7 +4,7 @@
 
 - Tor Browser
 - Filezilla
-- Daniel's hosting
+- [Daniel's hosting](http://dhosting4okcs22v.onion/index.php)
 
 「ただ闇に居場所が欲しかったのです」<br>
 特に難しい技術は使っていません<br>
