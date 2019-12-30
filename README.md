@@ -6,10 +6,7 @@
 - Filezilla
 - [Daniel's hosting](http://dhosting4okcs22v.onion/index.php)
 
-「ただ闇に居場所が欲しかったのです」<br>
-特に難しい技術は使っていません<br>
-htmlのみです<br>
-見るにはTor Browser必須です<br>
+Tor Browser only
 
 [My page](http://buaeq2v3pqyyyas7iee4b5mmuduql5nnajwy5rloofpyfwq265sksoad.onion/onion-hosting-1222/)
 
