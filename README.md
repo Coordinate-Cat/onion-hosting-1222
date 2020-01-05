@@ -8,9 +8,12 @@
 
 Tor Browser only<br>
 Do not use script on tor!!<br>
-If you want to see the design, please visit the mirror site.
+If you want to see the design, please visit the mirror site.<br>
+mirror site is surface web(now hosting).
 
-[My page](http://buaeq2v3pqyyyas7iee4b5mmuduql5nnajwy5rloofpyfwq265sksoad.onion/onion-hosting-1222/)
+[Tor - http://buaeq2v3pqyyyas7iee4b5mmuduql5nnajwy5rloofpyfwq265sksoad.onion/onion-hosting-1222/](http://buaeq2v3pqyyyas7iee4b5mmuduql5nnajwy5rloofpyfwq265sksoad.onion/onion-hosting-1222/)<br>
+
+[Mirror - https://onion-hosting-1222.now.sh/](https://onion-hosting-1222.now.sh/)
 
 ### System Acc
 
