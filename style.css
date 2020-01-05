@@ -13,7 +13,7 @@ body{
 .hd-inner{
     top: 0;
     left: 0;
-    padding: 15px 15px;
+    padding: 10px 15px 0px 15px;
 }
 .hd-contents{
     display: flex;
@@ -27,7 +27,6 @@ body{
 }
 .hd-sitetitle:hover{
     color: blue;
-    cursor: none;
 }
 ul{
     list-style-type: none;
@@ -41,7 +40,7 @@ ul{
 .hd-github{
     color: #000;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
     border-radius: 15%;
 }
 .hd-github:hover{
@@ -53,12 +52,12 @@ ul{
     margin-left: 20px;
     color: #000;
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
     border-radius: 15%;
 }
 .hd-twitter:hover{
-    color: #fff;
-    background-color: #000;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 184, 255);
     transition: ease-in 0.15s;
 }
 
@@ -70,19 +69,57 @@ ul{
 }
 .main-inner{
     margin-top: 0;
-    padding-top: 80px;
+    padding-top: 143px;
+}
+
+.tradingview-widget-copyright{
+    display: none;
+}
+.tradingview-widget-container{
+    height: 45px !important;
 }
 /* main-contents -----------------------------*/
 .main-contents{
     margin: 20px;
     font-family: 'Rubik', sans-serif;
 }
-.top-contents-text{
-    line-height: 25px;
+.fixed-text{
+    position: fixed;
+    color: rgba(0, 0, 0, 0.055);
+    font-size: 150px;
+    line-height: 130px;
     padding-bottom: 15px;
-    text-align: center;
+    text-align: left;
 }
 .top-contents-data{
-    text-align: center;
-    z-index: -1;
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+.top-contents-data ul{
+    padding-left: 20px;
+}
+.data-left{
+    width: 50%;
+}
+
+.data-right{
+    width: 50%;
+}
+.data-link{
+    text-decoration: none !important;
+    color: #000;
+}
+.data-link-tor{
+    text-decoration: none !important;
+    color: #000;
+}
+.data-link:hover{
+    color: rgb(66, 138, 102);
+}
+.data-link-tor:hover{
+    color: rgb(218, 82, 82);
 }

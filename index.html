@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google" value="notranslate">
 
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Rubik&display=swap" rel="stylesheet">
@@ -23,23 +24,76 @@
                     </ul>
                 </div>
             </div>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div class="tradingview-widget-container__widget"></div>
+                <div class="tradingview-widget-copyright">TradingView提供の<a href="https://jp.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">ティッカーテープ</span></a></div>
+                <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {
+                "symbols": [
+                {
+                    "description": "BTC/JPY",
+                    "proName": "BITFLYER:BTCJPY"
+                },
+                {
+                    "description": "ETH/BTC",
+                    "proName": "COINBASE:ETHBTC"
+                },
+                {
+                    "description": "XRP/BTC",
+                    "proName": "BINANCE:XRPBTC"
+                },
+                {
+                    "description": "BCH/BTC",
+                    "proName": "COINBASE:BCHBTC"
+                },
+                {
+                    "description": "XEM/BTC",
+                    "proName": "BINANCE:XEMBTC"
+                },
+                {
+                    "description": "LTC/BTC",
+                    "proName": "COINBASE:LTCBTC"
+                }
+                ],
+                "colorTheme": "light",
+                "isTransparent": false,
+                "displayMode": "regular",
+                "locale": "ja"
+            }
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
         </div>
     </header>
     <main class="x-main">
         <div class="main-inner">
             <div class="main-contents">
-                <div class="top-contents-text">
+                <div class="fixed-text">
                     Hi !<br>
-                    Welcome to Tor !!<br>
-                    Only iframe uses javascript...
+                    Welcome to onion-station!!<br>
                 </div>
                 <div class="top-contents-data">
-                    <div class="data-iframe">
-                        <iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/light" frameborder="0"></iframe>
-                    </div>
-                    <div class="data-lists">
+                    <div class="data-left">
+                        <h2>Research - Surface</h2>
                         <ul>
-                            <li><a href="https://blog.kaspersky.co.jp/what-is-hoax-report/23480/">Hoaxとは：どこから来たのか、なぜ危険なのか</a></li>
+                            <li><a class="data-link" href="https://blog.kaspersky.co.jp/what-is-hoax-report/23480/">Hoaxとは：どこから来たのか、なぜ危険なのか</a></li>
+                            <li><a class="data-link" href="https://www.maketecheasier.com/make-tor-faster/">Easily Make Tor Faster with These Tips</a></li>
+                            <li><a class="data-link" href="https://cryptonews.com/news/hunt-for-xem-526m-coincheck-hackers-intensifies-several-men-5382.htm">Hunt for XEM 526m Coincheck Hackers Intensifies, Several Men Suspected</a></li>
+                            <li><a class="data-link" href="https://deepdot35wvmeyd5.onion.ws/">Onion.ws</a></li>
+                            <li><a class="data-link" href="http://cryptome.org/2013/10/nsa-ego-differ/nsa-ego-differ.htm">NSA EgotisticalGiraffe Differ in The Guardian and Washington Post</a></li>
+                            <li><a class="data-link" href="https://protonmail.com/blog/tor-encrypted-email/">ProtonMail Blog</a></li>
+                            <li><a class="data-link" href="https://www.propublica.org/podcast/why-propublica-joined-the-dark-web/">Why ProPublica Joined the Dark Web</a></li>
+                            <li><a class="data-link" href="http://news.idg.no/cw/art.cfm?id=68868589-B34E-04B5-C0C204A78E0FB171">Japan police to ally with hackers in tactical shift
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="data-right">
+                        <h2>Research - Tor</h2>
+                        <ul>
+                            <li><a class="data-link-tor" href="https://www.bbcnewsv2vjtpsuy.onion/">BBC News</a></li>
+                            <li><a class="data-link-tor" href="https://www.facebookcorewwwi.onion/">Facebook</a></li>
+                            <li><a class="data-link-tor" href="https://thehiddenwiki.org/">Hidden wiki</a></li>
                         </ul>
                     </div>
                 </div>
