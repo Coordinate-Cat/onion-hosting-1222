@@ -1,7 +1,29 @@
 body{
     margin: 0;
 }
-
+@media screen and (max-width:600px){
+    .hd-sitetitle{
+        font-size: 28px !important;
+    }
+    .main-inner{
+        padding-top: 80px !important;
+    }
+    .fixed-text{
+        display: none;
+    }
+    .donate-p{
+        display: none;
+    }
+    .top-contents-data{
+        flex-direction: column;
+    }
+    .data-left{
+        width: 100% !important;
+    }
+    .data-right{
+        width: 100% !important;
+    }
+}
 /* header */
 .x-header{
     width: 100%;
@@ -28,43 +50,35 @@ body{
 .hd-sitetitle:hover{
     color: blue;
 }
-ul{
+.hd-right ul{
     list-style-type: none;
 }
 .hd-nav{
     margin: 0;
     padding: 0;
     display: flex;
-    font-family: 'PT Serif', serif;
+    font-family: 'Rubik', sans-serif;
 }
-.hd-github{
-    color: #000;
-    text-decoration: none;
-    padding: 8px;
-    border-radius: 15%;
+.donate-p{
+    padding-top: 15px;
 }
-.hd-github:hover{
-    color: #fff;
-    background-color: #000;
-    transition: ease-in 0.15s;
-}
-.hd-twitter{
+.hd-nitter{
     margin-left: 20px;
     color: #000;
     text-decoration: none;
     padding: 8px;
     border-radius: 15%;
 }
-.hd-twitter:hover{
+.hd-nitter:hover{
     color: rgb(255, 255, 255);
-    background-color: rgb(60, 184, 255);
+    background-color: rgb(41, 41, 41);
     transition: ease-in 0.15s;
 }
 
 /* main ------------------------------------------*/
 .x-main{
     width: 100%;
-    height: 1400px;
+    height: auto;
     background-color:white;
 }
 .main-inner{
@@ -88,8 +102,12 @@ ul{
     color: rgba(0, 0, 0, 0.055);
     font-size: 150px;
     line-height: 130px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .top-contents-data{
     position: relative;
@@ -101,6 +119,7 @@ ul{
 }
 .top-contents-data ul{
     padding-left: 20px;
+    list-style-type: square;
 }
 .data-left{
     width: 50%;
@@ -122,4 +141,16 @@ ul{
 }
 .data-link-tor:hover{
     color: rgb(218, 82, 82);
+}
+
+/* footer-contents -----------------------------*/
+.footer-text{
+    position: relative;
+}
+.copy-text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0 10px 10px 0;
 }
